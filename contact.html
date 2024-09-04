@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Online Book Store</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fffacd;
+            color: #333;
+        }
+        header {
+            background-color: #333;;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        .top-right-links {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            display: flex;
+            gap: 15px;
+        }
+        .top-right-links a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            padding: 8px 12px;
+            border-radius: 4px;
+            background-color: #f0f0f0;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        .top-right-links a:hover {
+            background-color: #333;
+            color: #fff;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fffacd;
+            
+            
+        }
+        .contact-info {
+            margin-bottom: 20px;
+        }
+        .contact-info h2 {
+            margin-top: 0;
+        }
+        .contact-info p {
+            margin: 5px 0;
+        }
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+        }
+        .contact-form label {
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        .contact-form input, 
+        .contact-form textarea {
+            margin-bottom: 15px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+        .contact-form textarea {
+            resize: vertical;
+            height: 150px;
+        }
+        .contact-form button {
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            background-color: #333;
+            color: #fff;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .contact-form button:hover {
+            background-color: #555;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        footer a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+    </header>
+    <div class="top-right-links">
+        <a href="Home.html">Home</a> 
+        <a href="about.html">About Us</a>
+       
+     
+    </div>
+
+    <div class="container">
+        <div class="contact-info">
+            <h2>Get in Touch</h2>
+            <p>If you have any questions, comments, or need assistance, please feel free to contact us using the form below or reach out to us directly.</p>
+            <p><strong>Email:</strong> support@onlinebookstore.com</p>
+            <p><strong>Phone:</strong> +1-800-123-4567</p>
+            <p><strong>Address:</strong> 123 Book Street, Bibliopolis, BK 12345</p>
+        </div>
+
+        <div class="contact-form">
+            <h2>Contact Form</h2>
+            <form>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+                <br>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                <br>
+
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" required>
+                <br>
+
+                
+                <br>
+                
+
+
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Online Book Store. All rights reserved</p>
+    </footer>
+</body>
+</html>

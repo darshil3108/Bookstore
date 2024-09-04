@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body {
+            background-color: #fffacd; /* Light blue background */
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            text-align: center;
+    color: #ffffff; /* White text for contrast */
+    background-color: #333; /* Solid color background */
+    padding: 20px; /* Adequate padding for emphasis */
+    border-radius: 10px; /* Rounded corners for a softer look */
+    font-family: 'Arial', sans-serif; /* Clean, modern font */
+    font-size: 2.5em; /* Larger font size for prominence */
+    font-weight: bold; /* Bold text for added impact */
+    margin: 20px 0; /* Space above and below the header */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+        }
+        form {
+            background-color: #fffacd; /* Lemon chiffon background */
+            padding: 20px;
+            border-radius: 10px;
+            max-width: 500px;
+            margin: auto;
+            
+        }
+        label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+        input, select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            background-color: #0078D4;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #005bb5;
+        }
+        a {
+            display: block;
+            margin-top: 20px;
+            color: #0078D4;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTER</title>
+</head>
+<body>
+    <form action="Home2.html" method="get">
+        <h1>REGISTER HERE</h1>
+        <label for="first-name">First Name:</label>
+        <input type="text" id="first-name" name="first-name" required><br>
+        
+        <label for="last-name">Last Name:</label>
+        <input type="text" id="last-name" name="last-name" required><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br>
+        
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br>
+        
+        <label for="confirm-password">Confirm Password:</label>
+        <input type="password" id="confirm-password" name="confirm-password" required><br>
+        
+        <label for="phone">Phone Number:</label>
+        <input type="text" id="phone" name="phone" required><br>
+        
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender" required>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select><br>
+        
+        <button type="submit">Register</button>
+        <a href="home.html">Go BACK</a>
+    </form>
+</body>
+</html>
